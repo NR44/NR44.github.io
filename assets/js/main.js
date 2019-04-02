@@ -64,7 +64,7 @@ jQuery(document).ready(function($) {
     
     
     /* Github Activity Feed - https://github.com/nr44/github-activity */
-    GitHubActivity.feed({ username: "NR44", selector: "#feed" });
+    // GitHubActivity.feed({ username: "NR44", selector: "#feed" });
 
 
 });
