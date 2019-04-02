@@ -63,8 +63,8 @@ jQuery(document).ready(function($) {
     new GitHubCalendar("#github-graph", "NR44");
     
     
-    /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "NR44", selector: "#ghfeed" });
+    /* Github Activity Feed - https://github.com/nr44/github-activity */
+    GitHubActivity.feed({ username: "NR44", selector: "#feed" });
 
 
 });
