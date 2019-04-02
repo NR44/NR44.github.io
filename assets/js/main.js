@@ -7,12 +7,9 @@ jQuery(document).ready( ($) => {
     
     $(window).on('load', () => {
 
-        $('.level-bar-inner').each( () => {
-        
-            var itemWidth = $(this).data('level');
-            
-            $(this).animate({
-                width: itemWidth
+        $('.level-bar-inner').each( () => {            
+            $('.level-bar-inner').animate({
+                width: $('.level-bar-inner').data('level')
             }, 800);
             
         });
