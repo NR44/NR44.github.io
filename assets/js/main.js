@@ -1,24 +1,4 @@
 jQuery(document).ready( ($) => {
-
-
-    /*======= Skillset *=======*/
-    
-    $('.level-bar-inner').css('width', '5px');
-    
-    $(window).on('load', () => {
-
-        $('.level-bar-inner').forEach( () => {
-            console.log("inside loop of skills")
-            var itemWidth = $(this).data('level');
-            
-            $(this).animate({
-                width: itemWidth
-            }, 800);
-            
-        });
-        //load bars are firing on load
-        console.log('skill bars are firing!')
-    });
     
     /* Bootstrap Tooltip for Skillset */
     $('.level-label').tooltip();
