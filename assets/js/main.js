@@ -3,7 +3,7 @@ jQuery(document).ready( ($) => {
 
     /*======= Skillset *=======*/
     
-    // $('.level-bar-inner').css('width', '0');
+    $('.level-bar-inner').css('width', '50%');
     
     $(window).on('load', () => {
 
