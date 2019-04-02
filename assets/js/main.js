@@ -8,7 +8,7 @@ jQuery(document).ready( ($) => {
     $(window).on('load', () => {
 
         $('.level-bar-inner').each( () => {
-        
+            console.log("inside loop of skills")
             var itemWidth = $(this).data('level');
             
             $(this).animate({
