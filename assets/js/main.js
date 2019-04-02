@@ -7,11 +7,8 @@ jQuery(document).ready( ($) => {
     
     $(window).on('load', () => {
 
-        $('.level-bar-inner').each( () => {            
-            $('.level-bar-inner').animate({
-                width: $('.level-bar-inner').data('level')
-            }, 800);
-            
+        $('.level-bar-inner').each( () => {
+            $('.level-bar-inner').css('width', $(this).data('level'));
         });
     });
     
