@@ -16,7 +16,8 @@ jQuery(document).ready(function($) {
             }, 800);
             
         });
-
+        //load bars are firing on load
+        console.log('skill bars are firing!')
     });
     
     /* Bootstrap Tooltip for Skillset */
