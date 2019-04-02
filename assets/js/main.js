@@ -1,13 +1,13 @@
-jQuery(document).ready(function($) {
+jQuery(document).ready( ($) => {
 
 
     /*======= Skillset *=======*/
     
     $('.level-bar-inner').css('width', '0');
     
-    $(window).on('load', function() {
+    $(window).on('load', () => {
 
-        $('.level-bar-inner').each(function() {
+        $('.level-bar-inner').each( () => {
         
             var itemWidth = $(this).data('level');
             
@@ -16,8 +16,6 @@ jQuery(document).ready(function($) {
             }, 800);
             
         });
-        //load bars are firing on load
-        console.log('skill bars are firing!')
     });
     
     /* Bootstrap Tooltip for Skillset */
